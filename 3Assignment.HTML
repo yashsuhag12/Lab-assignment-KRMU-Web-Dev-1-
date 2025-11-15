@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <h1 style="width: auto; border: #498263; text-align: center;">Form</h1>
+
+   <form style="background: #66a6ab; padding: 25px; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15); width: 500px; align-items: center; margin-left:600px;">
+
+       
+        <label for="username">Name :</label>
+      <input type="text" placeholder="Enter your name " value="" required   style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+
+      <br>
+      <br>
+
+      <label for="email">Email :</label>
+      <input type="email" placeholder="Email id" name="" id="email" required style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+;
+      <br>
+      <br>
+
+      <label for="password">Password :</label>
+      <input type="password" placeholder="password" name="" id="password" required style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+
+      <br>
+      <br>
+
+            <label for="mobile no.">Mobile no. :</label>
+      <input type="tel" placeholder="Phone no." name="" id="mobile no." pattern="[6-9][0-9]{9}" required style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+
+        <br>
+        <br>
+        <label for="age">Age :</label>
+        <input type="number" id="age" min="18" max="60" step="1" value="18"required style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+
+        <br>
+        <br>
+        <label for="dob">D.O.B</label>
+        <input type="date" id="dob" required style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+        <br><br>
+        <label for="color">Fav. Color :</label>
+        <input type="color" id="color" value="#ff0000">
+
+        <br>
+        <br>
+
+        <label for="picture">Upload Picture :</label>
+        <input type="file" id="picture" accept="application/pdf" required style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+        <br>
+        <br>
+        <label>Gender :</label>
+
+        <label>
+            <input type="radio" name="gender" checked> Male
+        </label>
+          <label>
+            <input type="radio" name="gender"> Female
+        </label>
+          <label>
+            <input type="radio" name="gender"> Others
+        </label>
+
+        <br>
+        <br>
+        <textarea name="" id="" rows="10" cols="30"  placeholder = "this is a textarea,here we can write our comments and all"></textarea> </textarea>
+
+        <br>
+        <br>
+        <label for="section">Choose Section :</label>
+
+        <select name="" id="section">
+
+             <option value="none" selected disabled>select your Section </option>
+            <option value="sectionA" >Section A</option>
+            <option value="sectionB">Section B</option>
+            <option value="sectionC">Section C</option>
+            <option value="sectionD">Section D</option>
+
+        </select>
+
+
+
+        <br>
+        <br>
+
+        <label>
+            <input type="checkbox" name="check"> I accept T & C
+
+        </label>
+
+
+
+
+
+
+        <br>
+        <br>
+
+        <input type="submit">
+        <input type="reset" disabled>
+
+        <button type="submit">
+            
+        </button>
+        <br>
+        <br>
+ <a href="AS.html" target="_blank">first click on submit than me</a>
+ <br>
+ <br>
+<a href="Blog.HTML" target="_blank">first click on submit than me</a>
+
+     </form>
+
+
+    
+</body>
+</html>
